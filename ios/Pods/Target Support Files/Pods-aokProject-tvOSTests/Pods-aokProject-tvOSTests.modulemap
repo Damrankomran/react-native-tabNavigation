@@ -1,0 +1,6 @@
+framework module Pods_aokProject_tvOSTests {
+  umbrella header "Pods-aokProject-tvOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

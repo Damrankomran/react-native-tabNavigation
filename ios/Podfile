@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'aokProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #  use_frameworks!
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  # Pods for aokProject
+
+
+  target 'aokProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'aokProject-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for aokProject-tvOS
+
+  target 'aokProject-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
